@@ -301,22 +301,26 @@ section h1 {
   line-height: 0.1;
 }
 
-#portfolio-link-btn {
+.project-btn {
   border: 1px solid #262434;
   color: #262434;
-  margin: 30px 5px;
+  margin: 5px;
   background: white;
   height: auto;
   cursor: pointer;
   font-size: 1rem;
-  padding: 10px;
+  padding: 5px;
   outline: 0;
   transition: all 0.5s;
 }
 
-#portfolio-link-btn:hover {
+.project-btn:hover {
   color: white;
   background: #262434;
+}
+
+#portfolio-github-btn {
+  margin: 30px 0;
 }
 
 /* --- end of portfolio section ---*/
