@@ -11,7 +11,7 @@ html {
   font-size: 16px;
   background-color: #252734;
   font-family: "Roboto", sans-serif;
-  font-color: #262434;
+  color: #262434;
   text-align: center;
   scroll-behavior: smooth;
   position: relative;
@@ -51,9 +51,9 @@ p {
 
 #title-info {
   position: absolute;
-  top: 40;
   z-index: 99;
-  width: 500px;
+  width: 390px;
+  max-width: 100%;
 }
 
 #tia {
@@ -159,15 +159,18 @@ section h1 {
 /* skills section on about page */
 #skills-container {
   width: 100%;
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #skills-box {
+  width: 310px;
+  max-width: 100%;
   border-radius: 10px;
-  width: 50%;
-  max-width: 500px;
   height: 200px;
   border: 4px dashed #f0f0f0;
   margin: 5px;
@@ -268,7 +271,7 @@ section h1 {
 }
 
 #project-1 {
-  background-image: url("img/vidplayer.png");
+  background-image: url("img/exchange-light.png");
 }
 
 #project-2 {
@@ -281,6 +284,10 @@ section h1 {
 
 #project-4 {
   background-image: url("img/form-validation.png");
+}
+
+#project-5 {
+  background-image: url("img/vidplayer.png");
 }
 
 /* On mouse-over, add a deeper shadow */
