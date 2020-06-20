@@ -376,4 +376,7 @@ footer {
   .project {
     width: 100%;
   }
+  #skills-box {
+    width: 100%;
+  }
 }
