@@ -35,10 +35,9 @@ p {
 }
 
 #landing-page {
-	margin-top: -10px;
 	font-weight: 100;
 	width: 100%;
-	height: 102vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -331,6 +330,7 @@ section h1 {
 	width: 800px;
 	max-width: 100%;
 	margin: 0 auto;
+	padding: 40px 0;
 }
 
 footer {
