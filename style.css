@@ -162,13 +162,16 @@ section h1 {
 	flex-wrap: wrap;
 }
 
-#skills-box {
-	width: 310px;
-	max-width: 100%;
+.skills-box {
+	width: 48%;
 	border-radius: 10px;
 	height: 200px;
 	border: 4px dashed #f0f0f0;
 	margin: 5px;
+}
+
+.skills-box i {
+	font-size: 60px;
 }
 
 #intro-container {
@@ -362,7 +365,7 @@ footer {
 	font-size: 18px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 650px) {
+@media only screen and (min-width: 320px) and (max-width: 700px) {
 	#intro-container {
 		display: flex;
 		flex-direction: column;
@@ -370,13 +373,7 @@ footer {
 	.project {
 		width: 100%;
 	}
-	#skills-box {
+	.skills-box {
 		width: 100%;
-	}
-}
-
-@media only screen and (min-width: 651px) and (max-width: 1000px) {
-	#skills-box {
-		width: 48%;
 	}
 }
