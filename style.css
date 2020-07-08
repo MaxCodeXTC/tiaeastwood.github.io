@@ -165,13 +165,14 @@ section h1 {
 .skills-box {
 	width: 48%;
 	border-radius: 10px;
-	height: 200px;
+	height: auto;
 	border: 4px dashed #f0f0f0;
 	margin: 5px;
 }
 
 .skills-box i {
-	font-size: 60px;
+	font-size: 70px;
+	line-height: 5rem;
 }
 
 #intro-container {
@@ -197,7 +198,11 @@ section h1 {
 #skill-bar-area {
 	width: 100%;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 10px auto;
+}
+
+#skill-bar-area h3 {
+	margin: 10px 0 0 0;
 }
 
 .container {
@@ -207,8 +212,7 @@ section h1 {
 
 .skills {
 	text-align: right;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 5px 0;
 	color: white;
 }
 
@@ -322,9 +326,21 @@ section h1 {
 	background: #262434;
 }
 
-#portfolio-github-btn {
-	padding: 10px;
+#portfolio-links {
 	margin: 20px 0;
+	height: 150px;
+}
+
+#portfolio-links i,
+#portfolio-links a {
+	font-size: 4rem;
+	margin: 20px 7px;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+#portfolio-links i:hover {
+	font-size: 4.5rem;
 }
 
 /* --- end of portfolio section ---*/
