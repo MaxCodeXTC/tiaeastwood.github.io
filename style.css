@@ -34,6 +34,10 @@ p {
 	color: #ff008f;
 }
 
+.pink-underline {
+	border-bottom: 2px dashed #ff008f;
+}
+
 #landing-page {
 	font-weight: 100;
 	width: 100%;
@@ -271,23 +275,19 @@ section h1 {
 }
 
 #project-1 {
-	background-image: url("img/exchange-light.png");
+	background-image: url("img/Responsive-showcase-presentation.png");
 }
 
 #project-2 {
-	background-image: url("img/movie-repo.png");
+	background-image: url("img/exchange-light.png");
 }
 
 #project-3 {
-	background-image: url("img/movie-picker.png");
+	background-image: url("img/movie-repo.png");
 }
 
 #project-4 {
-	background-image: url("img/form-validation.png");
-}
-
-#project-5 {
-	background-image: url("img/vidplayer.png");
+	background-image: url("img/movie-picker.png");
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -325,6 +325,46 @@ section h1 {
 	color: white;
 	background: #262434;
 }
+
+/*Modal pop-up box */
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 99; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* end modal pop-up box */
 
 #portfolio-links {
 	margin: 20px 0;

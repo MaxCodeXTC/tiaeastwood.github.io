@@ -75,11 +75,17 @@
 					Hi, my name is
 					<span class="pink-text"><strong>Tia Eastwood</strong></span
 					>.<br />
-					I'm a creative coder and developer in training, based in Manchester,
-					UK.<br />
+					I'm a creative coder and developer in training, based in
+					<span class="pink-underline">Manchester, UK.</span><br />
 					I have a background in illustration and design, but I've been learning
-					to code since 2019 after making the decision to pursue my passion for
-					technology.
+					to code since January 2020 after making the decision to pursue my
+					passion for technology. The shift in my interest from digital
+					illustration to code was a gradual but natural journey. I enjoy the
+					process of building something from start to finish and I always want
+					to know how things work...if there is something I don't know how to
+					do, then I will learn it! I'm happy to say that I'm due to start
+					<span class="pink-underline">Northcoders bootcamp</span>
+					in August 2020, and will then be looking to pursue my career!
 				</p>
 			</div>
 			<div id="skills-container">
@@ -92,7 +98,6 @@
 						class="devicon-bootstrap-plain-wordmark colored"
 						title="Bootstrap"
 					></i>
-					<i class="devicon-jquery-plain-wordmark colored" title="jQuery"></i>
 				</div>
 				<div class="skills-box">
 					<h3>Skills & Tools</h3>
@@ -141,13 +146,57 @@
 			</h1>
 			<p>Here is some of my recent work...</p>
 			<div id="gallery-container">
+				<!--Info about the website-->
+				<div class="project">
+					<div class="project-img" id="project-1"></div>
+					<div id="myModal" class="modal">
+						<!-- Modal pop-up content -->
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h2>About This Website</h2>
+							<p>
+								<h3>General Info:</h3>
+								I built the current version on my website using only HTML, CSS &
+								Vanilla JavaScript. My aim was to build a responsive site
+								without relying on any frameworks, in order to improve my basic
+								skills. To begin with, I started with a rough sketch of how I
+								wanted my site to look. I knew that I wanted to have a clean
+								one-page layout, with each section flowing to the next, for a
+								smooth user experience. As a portfolio website, I wanted to make it as easy as possible to view the content.
+								<h3>Responsive Design:</h3>
+								I built with mobile in mind, using
+								flexbox, responsive measurements, and media queries where
+								appropriate, in order for my content to look good on different
+								screen sizes. I tested my site on different devices that I owned, to make sure I was happy with how things looked and worked.
+								<h3>Colour Scheme:</h3>
+								After laying the foundations for the structure
+								and content, I experimented with colour palettes. To keep the design of the site cohesive, I settled on 2 main colours (deep blue and bright pink) with white. The pink is an injection of my personality, but together I feel that these colours compliment each other, while also making a pleasing contrast.
+								<h3>Functionality:</h3>
+								To include some user interactivity, I used a JavaScript library called <strong>particles.js</strong> to create the floating particles on the front page of my site. When the user hovers their mouse, they can move the particles. The idea behind this was to create a more memorable experience. 
+								I used JavaScript on other aspects of my site to improve user experience. For example:
+								<ul>
+									<li>This modal pop-up box that you're seeing now. I felt that this was the cleanest way to show more information on the same page.</li>
+									<li>Smooth animated page transitions. When you click the arrows to move to the next section of the site, or if you click the arrow to return to the top of the site, it will transition smoothly instead of abrubtly changing to that section.</li>
+								</ul>
+							</p>
+						</div>
+						<!-- End modal pop-up-->
+					</div>
+					<div class="project-info">
+						<b>This Website!</b>
+						<p>HTML / CSS / Vanilla JavaScript</p>
+						<!--read more button-->
+						<button class="project-btn" id="myBtn">Read More</button>
+					</div>
+				</div>
+
 				<!--project 1-->
 				<div class="project">
 					<a
 						href="https://github.com/tiaeastwood/currency-converter"
 						target="_blank"
 					>
-						<div class="project-img" id="project-1"></div>
+						<div class="project-img" id="project-2"></div>
 					</a>
 					<div class="project-info">
 						<b>Currency Converter</b>
@@ -172,7 +221,7 @@
 						href="https://github.com/tiaeastwood/movie-seat-booking-app"
 						target="_blank"
 					>
-						<div class="project-img" id="project-2"></div>
+						<div class="project-img" id="project-3"></div>
 					</a>
 					<div class="project-info">
 						<b>Cinema Seat Booking App</b>
@@ -198,7 +247,7 @@
 						href="https://github.com/tiaeastwood/lockdown-movie-generator"
 						target="_blank"
 					>
-						<div class="project-img" id="project-3"></div>
+						<div class="project-img" id="project-4"></div>
 					</a>
 					<div class="project-info">
 						<b>Lockdown Movie Generator</b>
@@ -213,28 +262,6 @@
 							href="https://tiaeastwood.com/lockdown-movie-generator/ "
 							target="_blank"
 						>
-							<button class="project-btn">Live Demo</button>
-						</a>
-					</div>
-				</div>
-				<!--project 4-->
-				<div class="project">
-					<a
-						href="https://github.com/tiaeastwood/form-validation"
-						target="_blank"
-					>
-						<div class="project-img" id="project-4"></div>
-					</a>
-					<div class="project-info">
-						<b>Signup Form With Validation</b>
-						<p>HTML / CSS / Vanilla JavaScript</p>
-						<!--buttons-->
-						<a
-							href="https://github.com/tiaeastwood/form-validation"
-							target="_blank"
-							><button class="project-btn">View Info</button></a
-						>
-						<a href="https://tiaeastwood.com/form-validation/" target="_blank">
 							<button class="project-btn">Live Demo</button>
 						</a>
 					</div>
@@ -289,5 +316,6 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 		<script src="particles.js"></script>
 		<script src="app.js"></script>
+		<script src="modal-popup.js"></script>
 	</body>
 </html>
