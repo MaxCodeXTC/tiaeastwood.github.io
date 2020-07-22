@@ -194,43 +194,7 @@ section h1 {
 #intro-container img {
 	width: 250px;
 	float: left;
-	margin-right: 10px;
-}
-
-/* ------ SKILL BAR ------ */
-
-#skill-bar-area {
-	width: 100%;
-	max-width: 1000px;
-	margin: 10px auto;
-}
-
-#skill-bar-area h3 {
-	margin: 10px 0 0 0;
-}
-
-.container {
-	width: 100%;
-	background-color: #f0f0f0;
-}
-
-.skills {
-	text-align: right;
-	padding: 5px 0;
-	color: white;
-}
-
-.html {
-	width: 90%;
-	background-color: #ff008f;
-}
-.css {
-	width: 80%;
-	background-color: #ff008f;
-}
-.js {
-	width: 60%;
-	background-color: #ff008f;
+	margin: 20px;
 }
 
 /* --- portfolio section ---*/
@@ -240,6 +204,10 @@ section h1 {
 
 #my-work h1 {
 	color: #252734;
+}
+
+h2 {
+	font-size: 1.2rem;
 }
 
 #gallery-container {
