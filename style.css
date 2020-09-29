@@ -193,7 +193,8 @@ section h1 {
 }
 
 #intro-container img {
-	width: 250px;
+	width: 300px;
+	max-width: 100%;
 	float: left;
 	margin: 20px;
 }
