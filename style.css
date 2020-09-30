@@ -11,7 +11,7 @@ html {
 	font-size: 16px;
 	background-color: #252734;
 	font-family: "Roboto", sans-serif;
-	color: #262434;
+	color: #252734;
 	text-align: center;
 	scroll-behavior: smooth;
 	position: relative;
@@ -368,11 +368,55 @@ h2 {
 
 /* --- end of portfolio section ---*/
 
-.blog-feed {
-	width: 800px;
-	max-width: 100%;
+#contact-form {
 	margin: 0 auto;
-	padding: 25px 0;
+	width: 500px;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif
+}
+
+#contact-form {
+	margin-top: 50px;
+}
+
+#contact-form input {
+	padding: 12px 20px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+#contact-form textarea {
+	padding: 12px 20px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+#contact-form label {
+	margin: 10px 0;
+}
+
+#contact-form button {
+	border-radius: 4px;
+	margin: 10px 0;
+	width: 100%;
+	padding: 10px 0;
+	background-color: #252734;
+	transition: all 0.3s ease-in;
+}
+
+#contact-form button:hover {
+	cursor: pointer;
+	background-color:  #ff008f;
+}
+
+#contact-form i {
+	font-size: 20px;
+	color: #ffffff;
 }
 
 footer {
